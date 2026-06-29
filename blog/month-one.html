@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Building the Lead Conversion Model</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <nav>
+    <h2>Walter Melendez</h2>
+    <div>
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../projects.html">Projects</a>
+      <a href="../blog.html">Blog</a>
+      <a href="../contact.html">Contact</a>
+    </div>
+  </nav>
 
+  <main class="container">
+    <article class="card">
+      <h1>Building the Lead Conversion Model</h1>
+
+      <p><strong>Author:</strong> Walter Melendez</p>
+      <p><strong>Date:</strong> June 28, 2026</p>
+
+      <h2>Features Built This Month</h2>
+      <p>
+        This month, I focused on building the first working version of my Predictive Lead-to-Student Conversion System. I researched lead scoring and enrollment prediction, selected a public education lead dataset, cleaned the data, and trained three machine learning models: Logistic Regression, Random Forest, and Support Vector Machine.
+      </p>
+
+      <p>
+        The main feature I built was the model development workflow. I cleaned the dataset down to the fields that would realistically be available when a lead first enters the system, such as lead source, lead origin, country, city, occupation, specialization, and customer preferences. I removed fields that would come after speaking with the lead, like lead quality, tags, and internal scoring fields, because I wanted the model to focus on early lead prioritization.
+      </p>
+
+      <p>
+        I used Python, Pandas, Scikit-learn, Jupyter Notebook, VS Code, and GitHub throughout the process. One challenge was deciding which fields to keep and which to remove. Some fields were very predictive, but they were not available at the time of lead creation, so I removed them to avoid target leakage and keep the project aligned with my real-world goal.
+      </p>
+
+      <h2>Visual Components</h2>
+      <p>For my visual evidence, I included screenshots of:</p>
+      <ul>
+        <li>My cleaned dataset and selected predictive fields</li>
+        <li>The model comparison results for Logistic Regression, Random Forest, and SVM</li>
+        <li>The VS Code performance testing output for model training and prediction time</li>
+      </ul>
+
+      <h2>Retrospective</h2>
+
+      <h3>What went right?</h3>
+      <p>
+        The research helped me make better decisions about the project direction. I started with the idea of predicting student success, but after reviewing Salesforce Einstein Lead Scoring and enrollment prediction research, I shifted toward lead conversion prediction. That made the project more realistic and more connected to the kind of work I do.
+      </p>
+
+      <h3>What went wrong?</h3>
+      <p>
+        The biggest challenge was scope. There were a lot of things I wanted to build, but I had to keep reminding myself that I only have a limited amount of time and I work full-time. I also had to spend extra time cleaning the data and making sure I was not using fields that would make the model unfair or unrealistic.
+      </p>
+
+      <h3>How can I improve moving forward?</h3>
+      <p>
+        Moving forward, I need to keep the scope tight and focus on finishing the dashboard and thesis. I also want to keep documenting decisions better as I make them, because those notes make it easier to explain and defend the project later.
+      </p>
+
+      <h2>Advisor Interaction</h2>
+      <p>
+        I also met with my advisor by phone this month. We talked about the project direction, the dataset, and my plan for the week. He said he liked the path I was on and agreed with the work completed so far. He also mentioned that I may want to use or compare against a more widely used dataset if possible. Overall, I told him I felt on track, and the meeting helped confirm that I was moving in the right direction.
+      </p>
+
+      <h2>Next Phase</h2>
+      <p>
+        I feel ready to move into the next phase of development. The models have been trained and compared, so the next major step is building the dashboard and connecting the results in a way that is easy to understand.
+      </p>
+    </article>
+  </main>
+</body>
+</html>
