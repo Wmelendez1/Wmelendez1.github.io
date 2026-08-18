@@ -3,42 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Data analytics, machine learning, SQL, Tableau, and automation projects by Walter Melendez." />
   <title>Projects | Walter Melendez</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav>
-    <h2>Walter Melendez</h2>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </nav>
-
-  <main class="container">
-    <h1>Projects</h1>
-
-    <section class="card">
-      <h2>Predictive Lead-to-Student Conversion System</h2>
-      <p>
-        This capstone project uses machine learning to predict whether an education lead is likely to convert. The project compares Logistic Regression, Random Forest, and Support Vector Machine models.
-      </p>
-      <p>
-        The goal is to create a framework that could eventually be adapted to predict whether a lead becomes an active student.
-      </p>
-      <p><strong>Tools:</strong> Python, Pandas, Scikit-learn, Jupyter Notebook, GitHub</p>
-    </section>
-
-    <section class="card">
-      <h2>Admissions Reporting and Automation</h2>
-      <p>
-        I have worked on dashboards, cleaning scripts, and automation workflows that help reduce manual reporting work and improve visibility into admissions data.
-      </p>
-      <p><strong>Tools:</strong> Excel, Python, Tableau, SQL</p>
-    </section>
-  </main>
-</body>
-</html>
+  <nav aria-label="Primary navigation"><a class="brand" href="index.html">Walter Melendez</a><div class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html" class="active">Projects</a><a href="resume.html">Resume</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div></nav>
+  <main class="container page-intro">
+    <p class="eyebrow">SELECTED WORK</p><h1>Projects</h1>
+    <p class="lead">A selection of analytics and automation work spanning machine learning, SQL, Tableau, operational reporting, and data-quality engineering.</p>
+    <section class="card featured-project"><span class="tag">Machine Learning</span><h2>Predictive Lead-to-Student Conversion System</h2><p>Built and evaluated classification models to predict lead conversion and support prioritization. The project compared multiple approaches and produced conversion probabilities plus High, Medium, and Low priority groups for operational use.</p><p><strong>Focus:</strong> model evaluation, feature preparation, classification, business interpretation, and dashboard communication.</p><p class="project-tech">Python • Pandas • Scikit-learn • Random Forest • Logistic Regression • Tableau</p><div class="project-media"><img src="images/model_results.png" alt="Lead conversion model evaluation results" loading="lazy" /></div><a class="text-link" href="blog/final-reflection.html">Read the capstone reflection →</a></section>
+    <section class="card"><span class="tag">SQL Analytics</span><h2>Contact-Center Transfer Analysis</h2><p>Designed SQL audit logic to reconcile lead insertions with qualifying Salesforce transfer activity. The analysis uses joins, deduplication, window functions, vendor-credit rules, and date windows to create auditable operational performance reporting.</p><p class="project-tech">SQL Server • SSMS • Salesforce • Window Functions • Data Validation</p></section>
+    <section class="card"><span class="tag">Automation</span><h2>Admissions Reporting & Workflow Automation</h2><p>Built repeatable workflows for cleaning, segmenting, validating, scheduling, and distributing operational data. These solutions combine Python, Excel, VBA, Power Query, SQL, and Tableau to reduce repetitive manual work and improve reporting consistency.</p><p class="project-tech">Python • Excel • VBA • Power Query • SQL • Tableau</p></section>
+    <section class="card"><span class="tag">Business Intelligence</span><h2>Operational Dashboards & Analysis</h2><p>Develop and maintain reporting that surfaces lead-funnel trends, agent performance, routing behavior, scheduling patterns, and operational gaps for decision-making. The work includes source-data validation and reconciliation so dashboard metrics remain aligned with agreed definitions.</p><p class="project-tech">Tableau Desktop • Tableau Prep • Tableau Server • Salesforce • SQL</p></section>
+  </main><footer><p>© 2026 Walter Melendez</p></footer>
+</body></html>
